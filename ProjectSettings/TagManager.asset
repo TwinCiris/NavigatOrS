@@ -6,11 +6,15 @@ TagManager:
   tags:
   - canPickUp
   - Floor
+  - Entrada
+  - Salida
+  - Mixto
+  - Tomate
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - ParedesBloqueo
   - Water
   - UI
   - Player
@@ -18,9 +22,9 @@ TagManager:
   - Muros
   - holdLayer
   - whatIsGround
-  - 
-  - 
-  - 
+  - RecipienteRAM
+  - RecipienteROM
+  - paredesBloqueo
   - 
   - 
   - 

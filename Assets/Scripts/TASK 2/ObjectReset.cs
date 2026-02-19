@@ -16,6 +16,7 @@ public class ObjectReset : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        
         // Esto te dirá en la consola con qué chocó exactamente
         Debug.Log("Choqué con: " + collision.gameObject.name + " Tag: " + collision.gameObject.tag);
 
